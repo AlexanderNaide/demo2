@@ -20,9 +20,9 @@ public class CityService {
     public CityDto getCityDto(String ip){
         CityRequest request = webClient.get()
 //                .uri(authServiceIntegrationProperties.getUrlAuthService() + "/api/v1/cart")
-                .header("Content-Type", MediaType.APPLICATION_JSON_VALUE)
-                .header("Accept", MediaType.APPLICATION_JSON_VALUE)
-                .header("Authorization", "Token 9fe2b2e5ad5f3160c13c2d3179b84db9a20c3a91")
+//                .header("Content-Type", MediaType.APPLICATION_JSON_VALUE)
+//                .header("Accept", MediaType.APPLICATION_JSON_VALUE)
+//                .header("Authorization", "Token 9fe2b2e5ad5f3160c13c2d3179b84db9a20c3a91")
                 .retrieve()
 //                .onStatus(
 //                        HttpStatusCode::is4xxClientError,
